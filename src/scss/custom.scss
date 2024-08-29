@@ -1,0 +1,41 @@
+body{
+  font-family: 'Pretendard-Regular';
+}
+.inner{
+  width:1200px;
+  margin:0 auto;
+  position:relative
+}
+:root{
+  --main-color:#0055A5;
+  --gray-color:#ececec;
+  --black-gray-color:#acacac;
+  --gold-color:#ffa800;
+}
+
+  // card hover 효과
+  @-webkit-keyframes shine {
+    0% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+  @keyframes shine {
+    0% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+
